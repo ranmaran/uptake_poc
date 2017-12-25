@@ -25,7 +25,7 @@ public class Uptake_Nav {
 			String PrdHeading = Uptake_prdt.prd(driver).getText();
 			Boolean Prdcheck = PrdHeading.contains("FASTER RESULTS");
 			if (Prdcheck) {
-				System.out.println("Homepage and Products page Loaded properly");
+				System.out.println("Homepage and Products page Loaded Successfully");
 			}
 			else
 			{
